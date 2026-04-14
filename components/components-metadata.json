@@ -1,0 +1,457 @@
+{
+  "accordion": {
+    "description": "An accordion allows a user to toggle the display of a section of content.",
+    "synonyms": ["accordion", "toggle", "expand", "collapse", "sections", "collapsible", "expandable", "show-hide", "drawer", "panel"],
+    "variants": ["default", "with-action-overflow", "in-card", "nested", "long-heading-truncated"]
+  },
+  "activity-timeline": {
+    "description": "The activity timeline displays each of the user's upcoming, current, and past activities.",
+    "synonyms": ["activity", "timeline", "history", "events", "log", "chronological", "feed", "activity-feed"],
+    "variants": ["base", "expanded-single", "expanded", "error", "narrow"]
+  },
+  "alert": {
+    "description": "Alert banners communicate a state that affects the entire system, not just a feature or page.",
+    "synonyms": ["alert", "banner", "notification", "warning", "error", "info", "offline", "system-message", "system-alert"],
+    "variants": ["info", "warning", "error", "offline"]
+  },
+  "app-launcher": {
+    "description": "The App Launcher allows the user to quickly access all the apps and functionality within their organization.",
+    "synonyms": ["app-launcher", "launcher", "apps", "application-switcher", "navigation", "tiles", "search", "drag-drop", "app-menu"],
+    "variants": ["default", "tooltip", "grabbed", "moved", "dropped", "search"]
+  },
+  "avatar": {
+    "description": "An avatar component represents an object or entity, typically showing a profile image, icon, or initials.",
+    "synonyms": ["avatar", "profile", "user", "photo", "picture", "image", "initials", "icon", "circle", "entity", "person", "thumbnail"],
+    "variants": ["profile-icon", "group-icon", "fallback-user-icon", "fallback-entity-icon", "fallback-user-initials", "fallback-entity-initials", "inverse", "linked", "circle", "x-small", "small", "medium", "large"]
+  },
+  "avatar-group": {
+    "description": "An avatar group communicates that there is more than one person or entity associated with an item.",
+    "synonyms": ["avatar-group", "group", "multiple-users", "people", "team", "collaborators", "stacked-avatars", "overlapping"],
+    "variants": ["with-images", "with-icons", "with-user-initials", "inversed", "mixed", "x-small", "small", "medium", "large"]
+  },
+  "badges": {
+    "description": "Badges are labels which hold small amounts of information such as status or count.",
+    "synonyms": ["badge", "label", "tag", "pill", "status", "indicator", "flag", "count", "chip"],
+    "variants": ["default", "inverse", "lightest", "success", "warning", "error", "with-left-icon", "with-right-icon"]
+  },
+  "brand-band": {
+    "description": "The brand band provides theming capability that adds personality and improves information density and contrast.",
+    "synonyms": ["brand-band", "brand", "header-band", "banner", "theme", "background", "decoration"],
+    "variants": ["small", "medium", "large", "none", "group", "user"]
+  },
+  "breadcrumbs": {
+    "description": "Breadcrumbs note the path of a record and help the user navigate back to the parent.",
+    "synonyms": ["breadcrumb", "breadcrumbs", "navigation", "path", "trail", "hierarchy", "parent-link", "back-navigation", "location-trail"],
+    "variants": ["default", "with-overflow"]
+  },
+  "builder-header": {
+    "description": "A header for builder interfaces containing navigation elements, builder type, and content name.",
+    "synonyms": ["builder-header", "builder", "header", "toolbar", "title-bar", "back-navigation", "builder-nav"],
+    "variants": ["default", "menu-open", "has-tooltip", "with-truncation", "with-toolbar", "has-status-text", "warning", "error"]
+  },
+  "button-groups": {
+    "description": "Button groups bunch together buttons with similar actions.",
+    "synonyms": ["button-group", "buttons", "group", "actions", "toolbar", "overflow", "row", "action-bar"],
+    "variants": ["default", "disabled", "with-overflow", "with-overflow-open", "inverse", "button-icon-group", "brand", "list", "row"]
+  },
+  "button-icons": {
+    "description": "Button icons provide visual iconography typically used to invoke an event or action.",
+    "synonyms": ["button-icon", "icon-button", "icon", "action-icon", "transparent-button", "bordered-button", "stateful-icon"],
+    "variants": ["base", "brand", "inverse", "transparent-container", "bordered-filled", "bordered-transparent", "bordered-inverse", "stateful", "error", "warning", "hint-hover", "with-dropdown", "large", "small", "x-small", "xx-small"]
+  },
+  "buttons": {
+    "description": "Buttons are clickable items used to perform an action.",
+    "synonyms": ["button", "action", "submit", "click", "primary", "secondary", "neutral", "brand", "destructive", "success", "inverse", "link-button", "CTA"],
+    "variants": ["base", "neutral", "brand", "outline-brand", "inverse", "destructive", "text-destructive", "success", "with-icon-left", "with-icon-right", "stateful", "dual-stateful", "stretch", "full-width"]
+  },
+  "cards": {
+    "description": "Cards are used to apply a container around a related grouping of information.",
+    "synonyms": ["card", "container", "panel", "box", "section", "wrapper", "grouping", "related-list", "tile"],
+    "variants": ["default", "no-header", "visibly-hidden-header", "no-footer", "empty", "loading", "with-data-table", "with-tiles", "nested", "wrapped", "einstein"]
+  },
+  "carousel": {
+    "description": "A carousel allows multiple pieces of featured content to occupy an allocated amount of space.",
+    "synonyms": ["carousel", "slider", "slideshow", "panels", "rotating-content", "indicators", "auto-play", "featured-content", "gallery"],
+    "variants": ["base", "panel-1", "panel-2", "panel-3", "panel-4", "panel-5", "auto-play"]
+  },
+  "chat": {
+    "description": "The chat component displays real-time and past chat logs between service agents and customers.",
+    "synonyms": ["chat", "message", "conversation", "messaging", "inbound", "outbound", "agent-chat", "customer-chat", "chat-log", "instant-message"],
+    "variants": ["inbound", "outbound", "outbound-agent", "with-avatar", "file-attachment", "image-attachment", "typing", "sneak-peek", "delivery-failure", "unsupported-type", "event", "error", "past-chat"]
+  },
+  "checkbox": {
+    "description": "A checkable input that communicates if an option is true, false, or indeterminate.",
+    "synonyms": ["checkbox", "check", "select", "option", "boolean", "toggle", "checkmark", "multi-select", "form-field"],
+    "variants": ["base", "required", "error", "disabled", "checked-and-disabled", "group", "group-required", "group-error", "group-disabled", "form-element", "with-help-text", "view-mode"]
+  },
+  "checkbox-button": {
+    "description": "A styled checkable input that communicates if an option is being added to a group.",
+    "synonyms": ["checkbox-button", "add-button", "select-button", "cart-button", "toggle-button"],
+    "variants": ["base", "checked", "disabled", "checked-and-disabled", "different-icon"]
+  },
+  "checkbox-button-group": {
+    "description": "A styled checkable input group where multiple options can be selected simultaneously.",
+    "synonyms": ["checkbox-button-group", "button-group", "multi-select", "toggle-group", "option-group", "fieldset"],
+    "variants": ["base", "has-error", "disabled"]
+  },
+  "checkbox-toggle": {
+    "description": "A toggle switch that communicates if an option is on or off.",
+    "synonyms": ["checkbox-toggle", "toggle", "switch", "on-off", "boolean", "flip", "toggle-switch"],
+    "variants": ["base", "checked", "disabled", "rtl"]
+  },
+  "color-picker": {
+    "description": "A configurable interface for color selection using swatches or a custom color picker.",
+    "synonyms": ["color-picker", "color", "palette", "swatches", "custom-color", "hue", "saturation", "hex", "rgb", "color-selector"],
+    "variants": ["base", "summary-error", "open", "custom-tab", "custom-only", "predefined-only", "swatches-only"]
+  },
+  "combobox": {
+    "description": "An input field with an autocomplete or readonly listbox of options for selecting values.",
+    "synonyms": ["combobox", "dropdown", "select", "autocomplete", "lookup", "listbox", "options", "search", "typeahead", "entity-picker", "multi-select"],
+    "variants": ["base", "autocomplete", "entity-lookup", "grouped", "multi-select", "with-dialog", "loading", "typeahead"]
+  },
+  "counter": {
+    "description": "The counter allows a user to increase or decrease a numerical value.",
+    "synonyms": ["counter", "numeric", "increment", "decrement", "stepper", "number-input", "quantity", "adjuster", "up-down"],
+    "variants": ["required", "error", "disabled", "read-only", "centered"]
+  },
+  "data-tables": {
+    "description": "Data tables are an enhanced version of an HTML table used to display tabular data.",
+    "synonyms": ["data-table", "table", "grid", "datagrid", "list", "rows", "columns", "tabular", "spreadsheet", "records"],
+    "variants": ["base", "striped-rows", "columns-dividers", "rows-with-no-hover", "single-column", "headless", "actionable-mode", "single-row-selection", "navigation-mode", "row-selection", "column-sorting", "column-resizing", "inline-edit"]
+  },
+  "datepickers": {
+    "description": "A datepicker is a text input to capture a date, allowing selection of a single date or date range.",
+    "synonyms": ["datepicker", "date-picker", "calendar", "date-input", "date-selector", "date-field", "day-picker", "month-picker"],
+    "variants": ["base", "date-selected", "date-picker-has-error", "date-required", "date-format-visible", "range", "start-date-selected", "end-date-selected"]
+  },
+  "datetime-picker": {
+    "description": "A datetime picker is used to select both a day and a time.",
+    "synonyms": ["datetime-picker", "datetime", "date-time", "timestamp", "schedule", "appointment", "calendar-time"],
+    "variants": ["base", "date-selection", "time-selection", "date-example-text-visible", "mobile"]
+  },
+  "docked-composer": {
+    "description": "A persistent composer window docked to the utility bar for tasks like email, voice, or note-taking.",
+    "synonyms": ["docked-composer", "composer", "utility-bar", "task-composer", "email-composer", "persistent-panel", "floating-composer"],
+    "variants": ["base", "open-focused", "closed", "closed-focused", "popped-out", "with-overflow-menu", "task", "email", "voice"]
+  },
+  "docked-form-footer": {
+    "description": "A form footer docked to the bottom of the viewport for persistent form actions.",
+    "synonyms": ["docked-form-footer", "form-footer", "sticky-footer", "fixed-footer", "bottom-bar", "action-bar", "submit-bar"],
+    "variants": ["base", "with-error", "with-error-popover"]
+  },
+  "docked-utility-bar": {
+    "description": "A persistent bar at the bottom of the screen for expanding and collapsing utility panels.",
+    "synonyms": ["docked-utility-bar", "utility-bar", "toolbar", "persistent-bar", "bottom-panel", "utility-panel", "dock"],
+    "variants": ["base", "panel-open", "item-has-notification", "item-has-popout"]
+  },
+  "drop-zone": {
+    "description": "Visual indicators showing where components can be dragged and dropped onto a page.",
+    "synonyms": ["drop-zone", "dropzone", "drag-drop", "drop-area", "drop-target", "placement-area", "drag-indicator"],
+    "variants": ["base", "drag-over", "insertion-point", "drop-zone-container"]
+  },
+  "dueling-picklist": {
+    "description": "A dual-listbox for moving options between two lists, often with re-ordering support.",
+    "synonyms": ["dueling-picklist", "dual-listbox", "multi-select", "transfer-list", "list-builder", "option-picker", "two-list-selector", "shuttle"],
+    "variants": ["base", "group-label", "responsive", "edit-mode", "selected-item", "multiple-selected-items", "dropped-items", "locked-items", "with-reordering", "disabled", "required", "with-tooltip", "view-mode"]
+  },
+  "dynamic-icons": {
+    "description": "A set of animated icons for conveying dynamic states like loading, scoring, or trends.",
+    "synonyms": ["dynamic-icons", "animated-icons", "motion-icons", "animation", "ellie", "eq", "score", "strength", "trend", "typing", "waffle"],
+    "variants": ["ellie", "eq", "global-action-help", "score", "strength", "trend", "typing", "waffle"]
+  },
+  "dynamic-menu": {
+    "description": "A menu with a variable number of actions and built-in search for long lists.",
+    "synonyms": ["dynamic-menu", "searchable-menu", "filterable-menu", "action-menu", "search-menu", "large-menu"],
+    "variants": ["base", "with-1-item", "with-fewer-than-10-items", "with-greater-than-10-items"]
+  },
+  "einstein-header": {
+    "description": "A specialized header for Einstein-branded AI features with icon, title, and optional actions.",
+    "synonyms": ["einstein-header", "einstein", "ai-header", "branded-header", "feature-header"],
+    "variants": []
+  },
+  "expandable-section": {
+    "description": "A section whose content can be toggled between visible and hidden.",
+    "synonyms": ["expandable-section", "collapsible", "expand-collapse", "toggle-section", "show-hide", "disclosure", "section-toggle"],
+    "variants": ["base", "non-collapsible", "closed"]
+  },
+  "expression": {
+    "description": "Expression builders help users declaratively construct logical expressions for filtering, rules, or conditional logic.",
+    "synonyms": ["expression", "expression-builder", "filter-builder", "rule-builder", "condition", "logical-expression", "query-builder", "criteria"],
+    "variants": ["base", "initial-state", "resource-selected", "new-condition-added", "error-state", "all-conditions", "any-condition", "with-expression-group", "custom-logic", "formula-logic", "narrow", "filtering"]
+  },
+  "feeds": {
+    "description": "A feed is a list of recurring elements such as posts, links, and discussions.",
+    "synonyms": ["feeds", "feed", "activity-feed", "stream", "post", "discussion", "comments", "social-feed", "news-feed"],
+    "variants": ["base", "post", "link-attachment", "files-attachment", "with-replies", "replies-overflow-bar", "replies-publisher-active", "question", "like"]
+  },
+  "file-selector": {
+    "description": "Allows the user to select files from the file system via file input or drag and drop.",
+    "synonyms": ["file-selector", "file-upload", "file-input", "upload", "drag-drop-files", "file-picker", "attachment", "browse-files"],
+    "variants": ["base", "error", "dragover", "dragover-with-error", "image", "integrated"]
+  },
+  "files": {
+    "description": "A visual representation of content uploaded as an attachment, showing preview and metadata.",
+    "synonyms": ["files", "file", "attachment", "document", "upload", "file-card", "file-preview", "image-preview"],
+    "variants": ["base", "file-with-no-image", "file-with-no-title", "file-with-actions", "file-with-external-icon", "file-loading", "multi-attachments", "crop-ratios"]
+  },
+  "form-element": {
+    "description": "A form element pairs an HTML input with a label and optional help text.",
+    "synonyms": ["form-element", "form-field", "input-field", "form-control", "field", "label-input", "form-item"],
+    "variants": ["base", "view-mode-static", "inline-edit", "help-text-icon", "required", "error", "stacked", "horizontal", "compound", "address"]
+  },
+  "form-layout": {
+    "description": "Layouts for organizing form elements in stacked, horizontal, or compound arrangements.",
+    "synonyms": ["form-layout", "form", "layout", "form-structure", "form-grid", "form-arrangement"],
+    "variants": ["horizontal"]
+  },
+  "global-header": {
+    "description": "The global header anchors the Salesforce platform, spanning the top of all pages with universal actions.",
+    "synonyms": ["global-header", "header", "top-bar", "navigation-bar", "app-header", "masthead", "page-header"],
+    "variants": ["base", "logo", "global-search", "favorites", "task", "help", "setup", "notifications"]
+  },
+  "global-navigation": {
+    "description": "The navigation bar found in the header on every Salesforce page, including App Launcher and page tabs.",
+    "synonyms": ["global-navigation", "navigation", "nav-bar", "context-bar", "app-navigation", "tab-bar", "navigation-bar"],
+    "variants": ["navigation-bar", "navigation-tab-bar", "item-active", "menu-open", "tab-states", "pinned", "overflow"]
+  },
+  "icons": {
+    "description": "Icons provide visual context and enhance usability, available in five SVG sprites: action, custom, doctype, standard, and utility.",
+    "synonyms": ["icons", "icon", "svg", "sprite", "glyph", "symbol", "graphic", "visual-indicator"],
+    "variants": ["action", "custom", "doctype", "standard", "utility", "colors", "sizes"]
+  },
+  "illustration": {
+    "description": "An illustration pairs an image with inline text to communicate a state in a friendly way.",
+    "synonyms": ["illustration", "empty-state", "no-data", "error-state", "placeholder", "onboarding", "friendly-message", "visual-feedback"],
+    "variants": ["base", "with-message-body", "large", "informational", "no-data", "error", "custom", "miscellaneous", "with-call-to-action", "text-only"]
+  },
+  "input": {
+    "description": "Text inputs are used for freeform data entry.",
+    "synonyms": ["input", "text-field", "text-box", "form-field", "text-input", "data-entry", "editable-field", "input-field"],
+    "variants": ["required", "disabled", "error", "error-icon", "read-only", "left-icon", "right-icon", "icon-clear-button", "icon-clear-spinner", "fixed-text", "inline-help", "field-level-help"]
+  },
+  "list-builder": {
+    "description": "A shopping-cart-style interface for quickly adding multiple items to a parent object.",
+    "synonyms": ["list-builder", "shopping-cart", "item-selector", "multi-select", "item-picker", "chooser", "add-remove"],
+    "variants": ["items-selected", "items-disabled", "items-default-selected", "filtered", "two-column-with-hidden-header"]
+  },
+  "lookups": {
+    "description": "An autocomplete combobox that searches against a database object.",
+    "synonyms": ["lookup", "autocomplete", "search", "typeahead", "record-search", "entity-search", "object-search", "find"],
+    "variants": ["focused", "open-item-focused", "displaying-options-based-on-input", "closed-option-selected", "grouped", "multi-entity"]
+  },
+  "lookups-mobile": {
+    "description": "Mobile-optimized lookup components including faux input, listbox, and combobox variants for touch interfaces.",
+    "synonyms": ["mobile-lookup", "touch-lookup", "mobile-search", "mobile-combobox", "mobile-typeahead", "responsive-lookup"],
+    "variants": ["faux-input", "faux-input-with-label", "listbox-recent-items", "listbox-typing-results", "listbox-all-results", "combobox-default", "combobox-icon", "combobox-icon-value", "combobox-icon-results", "combobox-icon-results-selected", "combobox-icon-disabled", "combobox-icon-loading"]
+  },
+  "map": {
+    "description": "A map component used to find and display a location.",
+    "synonyms": ["map", "location", "geography", "coordinates", "address", "geolocation", "place", "location-picker"],
+    "variants": ["first-coordinate-selected", "second-coordinate-selected", "single-coordinate", "multiple-coordinates"]
+  },
+  "menus": {
+    "description": "A menu offers a list of actions or functions that a user can access.",
+    "synonyms": ["menu", "dropdown", "action-menu", "context-menu", "options-menu", "dropdown-menu", "overflow-menu", "commands"],
+    "variants": ["base", "with-subheaders", "icon-left", "icon-right", "double-icon", "with-selectable-items", "with-status-notifications", "with-overflow-scrolling", "with-submenu", "overflow-menu-with-actions", "positioned-right", "positioned-bottom"]
+  },
+  "modals": {
+    "description": "Modals display content in a layer above the app for tasks like creating or editing a record.",
+    "synonyms": ["modal", "dialog", "popup", "overlay", "lightbox", "dialog-box", "window", "wizard", "confirmation-dialog"],
+    "variants": ["base", "taglines", "headless", "footless", "directional", "small", "medium", "large", "full"]
+  },
+  "notifications": {
+    "description": "Notifications serve as feedback and confirmation, appearing in the top-right corner of the screen.",
+    "synonyms": ["notification", "alert", "reminder", "system-message", "task-notification", "stacked-notification"],
+    "variants": ["base", "task-notification", "stacked-2", "stacked-3", "overflow-six"]
+  },
+  "page-headers": {
+    "description": "Page headers are used at the top of various page types containing the title and key metadata.",
+    "synonyms": ["page-header", "page-title", "header", "title-bar", "masthead", "record-header", "object-header", "related-list-header"],
+    "variants": ["base", "object-home", "record-home", "record-home-vertical", "related-list"]
+  },
+  "panels": {
+    "description": "A panel provides supplemental information or form inputs alongside the primary canvas.",
+    "synonyms": ["panel", "sidebar", "side-panel", "drawer", "sliding-panel", "auxiliary-panel", "filter-panel", "detail-panel"],
+    "variants": ["base", "header", "centered-text", "with-secondary-actions", "custom-header", "invoked-via-toggle", "left-docked", "right-docked", "drilled-in", "filtering"]
+  },
+  "path": {
+    "description": "The path communicates progress through a process via a series of connected stages.",
+    "synonyms": ["path", "progress-path", "stage-indicator", "process-path", "workflow-stages", "sales-path", "opportunity-stages", "coaching"],
+    "variants": ["base", "later-stage", "different-stage-selected", "with-visible-tooltip", "with-coaching", "different-coaching", "lost", "won", "with-overflow", "medium-layout", "small-layout"]
+  },
+  "path-simple": {
+    "description": "A simplified horizontal path showing stage progress without coaching functionality.",
+    "synonyms": ["path-simple", "simple-path", "horizontal-stages", "stage-tabs", "process-tabs", "compact-path"],
+    "variants": ["base", "with-coaching", "coaching-visible", "different-stage", "lost", "won"]
+  },
+  "picklist": {
+    "description": "A select-only component functionally similar to an HTML select element with a listbox of pre-defined options.",
+    "synonyms": ["picklist", "select", "dropdown-select", "select-list", "option-list", "choice-list", "picker"],
+    "variants": ["focused", "open-item-focused", "open-option-selected", "open-options-selected", "closed-option-selected", "closed-options-selected", "group-heading"]
+  },
+  "pills": {
+    "description": "A pill represents a selected object that can be viewed with or without an icon, and optionally removed.",
+    "synonyms": ["pill", "tag", "chip", "token", "label", "removable-tag", "selected-item", "filter-tag"],
+    "variants": ["base", "with-icon", "with-avatar", "with-container", "error", "truncated", "pill-truncated-tooltip", "listbox-of-pill-options"]
+  },
+  "popovers": {
+    "description": "A non-modal dialog paired with a clickable trigger element for contextual information or actions.",
+    "synonyms": ["popover", "callout", "non-modal-dialog", "info-bubble", "context-popup", "walkthrough", "hint", "contextual-help", "feature-popover"],
+    "variants": ["base", "with-header", "with-footer", "with-badge", "scrolling", "small", "medium", "large", "full-width", "nubbins", "error", "warning", "walkthrough", "feature", "record-preview-panel", "prompt"]
+  },
+  "process": {
+    "description": "A multi-step wizard component for navigating through a workflow or configuration process.",
+    "synonyms": ["process", "wizard", "stepper", "multi-step", "process-flow", "setup-wizard", "workflow-steps", "guided-process"],
+    "variants": ["wizard"]
+  },
+  "progress-bar": {
+    "description": "A progress bar communicates the completion progress of a particular process.",
+    "synonyms": ["progress-bar", "loading-bar", "completion-bar", "status-bar", "percentage-bar", "progress-meter", "linear-progress"],
+    "variants": ["zero", "25", "50", "75", "100", "success", "descriptive", "vertical", "circular", "thickness-x-small", "thickness-small", "thickness-medium", "thickness-large"]
+  },
+  "progress-indicator": {
+    "description": "A progress indicator communicates process progress through discrete numbered steps.",
+    "synonyms": ["progress-indicator", "stepper", "step-indicator", "progress-steps", "milestone-indicator", "stage-indicator", "wizard-progress"],
+    "variants": ["base", "horizontal", "active-step", "completed-step", "error-step", "step-title-tooltip", "in-modal", "on-gray-background", "vertical", "green-success", "multiline-step-titles"]
+  },
+  "progress-ring": {
+    "description": "A circular progress indicator that can display iconography inside the ring.",
+    "synonyms": ["progress-ring", "circular-progress", "radial-progress", "ring-indicator", "donut-progress", "circular-gauge"],
+    "variants": ["base", "partially-drained", "partially-drained-warning", "partially-filled", "partially-filled-warning", "expired", "complete", "large", "active-step", "theme-warning", "theme-expired", "theme-complete"]
+  },
+  "prompt": {
+    "description": "A prompt grabs the user's attention for system-related issues or updates requiring acknowledgment.",
+    "synonyms": ["prompt", "alert-dialog", "system-alert", "modal-alert", "critical-message", "warning-dialog", "confirmation-dialog"],
+    "variants": ["base"]
+  },
+  "publishers": {
+    "description": "A publisher is an advanced longform text input for composing posts or comments.",
+    "synonyms": ["publisher", "longform-input", "comment-box", "post-composer", "discussion-input", "text-publisher"],
+    "variants": ["base", "comment"]
+  },
+  "radio-button-group": {
+    "description": "A styled group of radio buttons where exactly one entry can be selected at a time.",
+    "synonyms": ["radio-button-group", "radio-buttons", "single-choice", "option-group", "segmented-control", "styled-radio"],
+    "variants": ["disabled", "required", "error"]
+  },
+  "radio-group": {
+    "description": "A standard group of radio inputs where exactly one entry can be selected at a time.",
+    "synonyms": ["radio-group", "radio", "single-select", "option-group", "fieldset", "choice-group"],
+    "variants": ["disabled", "checked-and-disabled", "required", "error", "required-help-text-icon", "required-help-text-icon-tooltip", "rtl"]
+  },
+  "regions": {
+    "description": "A layout region that can be pinned to different sides of the screen.",
+    "synonyms": ["region", "layout", "container", "pinned-panel", "area", "section", "background"],
+    "variants": ["pinned-top", "pinned-left", "pinned-right"]
+  },
+  "rich-text-editor": {
+    "description": "A textarea with formatting capabilities including a toolbar for use in various publishers.",
+    "synonyms": ["rich-text-editor", "RTE", "WYSIWYG", "text-editor", "formatting-editor", "toolbar-editor", "content-editor"],
+    "variants": ["focused", "filled-out", "error", "disabled", "tooltip", "bottom-toolbar", "with-label", "email", "toolbar-narrow", "feed", "note"]
+  },
+  "scoped-notifications": {
+    "description": "Scoped notifications provide advisory information that is not important enough to justify a full alert.",
+    "synonyms": ["scoped-notification", "inline-notification", "advisory", "info-bar", "status-message", "inline-alert"],
+    "variants": ["info", "success", "warning", "error", "light-theme", "dark-theme"]
+  },
+  "scoped-tabs": {
+    "description": "Tabs with a scoped visual style for keeping related content in a single container.",
+    "synonyms": ["scoped-tabs", "tabs", "contained-tabs", "segmented-tabs", "tab-navigation", "nested-tabs"],
+    "variants": ["selected", "overflowing-items", "size-medium", "size-large"]
+  },
+  "select": {
+    "description": "A native HTML select element presenting a menu of options.",
+    "synonyms": ["select", "dropdown", "native-select", "options-menu", "picker", "form-select", "html-select"],
+    "variants": ["error", "disabled", "required", "multiple", "multiple-narrow"]
+  },
+  "setup-assistant": {
+    "description": "A centralized checklist of onboarding tasks for administrators setting up organizations or features.",
+    "synonyms": ["setup-assistant", "onboarding", "task-list", "checklist", "setup-wizard", "configuration-guide", "getting-started"],
+    "variants": ["base", "with-step-progress", "hub-with-expandable-steps", "in-a-card"]
+  },
+  "slider": {
+    "description": "A range slider for specifying a numeric value between two bounds.",
+    "synonyms": ["slider", "range", "input-range", "scrubber", "value-selector", "range-slider"],
+    "variants": ["disabled", "value-0", "value-25", "value-50", "value-75", "value-100", "min-max", "steps", "width-x-small", "width-small", "width-medium", "width-large", "error", "vertical"]
+  },
+  "spinners": {
+    "description": "CSS loading indicators shown when retrieving data or performing slow computations.",
+    "synonyms": ["spinner", "loading", "loader", "progress-indicator", "busy-indicator", "activity-indicator", "waiting"],
+    "variants": ["without-container", "with-container", "fixed-container", "right-to-left", "inlined", "inverse", "brand", "delayed", "xx-small", "x-small", "small", "medium", "large"]
+  },
+  "split-view": {
+    "description": "A split-pane layout for navigating between records in a list while staying on the same screen.",
+    "synonyms": ["split-view", "master-detail", "list-detail", "split-pane", "navigation-list", "record-browser", "multi-pane"],
+    "variants": ["selected-item", "overflow", "unread", "panel-collapsed"]
+  },
+  "summary-detail": {
+    "description": "A component that always shows a summary while toggling the visibility of additional details.",
+    "synonyms": ["summary-detail", "expandable", "collapsible", "toggle-detail", "disclosure", "show-hide", "detail-toggle"],
+    "variants": ["closed", "closed-with-complex-title", "open-with-complex-title"]
+  },
+  "tabs": {
+    "description": "Tabs keep related content in a single container, shown and hidden through navigation.",
+    "synonyms": ["tabs", "tab-bar", "tab-navigation", "content-switcher", "subtabs", "tab-panel", "navigation-tabs"],
+    "variants": ["base", "medium", "large", "with-header", "with-overflow", "with-icon", "with-error", "with-nested-scoped-tabs", "subtabs", "subtabs-has-focus", "subtabs-borders", "subtabs-menu", "subtabs-unsaved", "unread", "unsaved", "warning", "error", "success", "overflow-tabs", "overflow-tabs-open", "vertical", "card", "mobile", "mobile-drilled-in", "mobile-adjacent", "mobile-nested"]
+  },
+  "textarea": {
+    "description": "A multi-line text input for freeform data entry.",
+    "synonyms": ["textarea", "text-area", "multiline-input", "freeform", "text-box", "long-text", "comment-field"],
+    "variants": ["disabled", "required", "error", "read-only"]
+  },
+  "tiles": {
+    "description": "A tile is a compact grouping of related information associated with a record.",
+    "synonyms": ["tile", "card", "record-tile", "info-tile", "detail-tile", "task-tile", "article-tile", "board-tile"],
+    "variants": ["with-action", "with-icon", "with-avatar", "task", "article", "article-liker-bar", "board"]
+  },
+  "timepicker": {
+    "description": "An autocomplete text input for capturing a time value.",
+    "synonyms": ["timepicker", "time-picker", "time-select", "time-input", "clock", "time-dropdown"],
+    "variants": ["focused", "open-item-focused", "time-selection"]
+  },
+  "toast": {
+    "description": "Toast serves as a feedback and confirmation mechanism after the user takes an action.",
+    "synonyms": ["toast", "notification", "snackbar", "feedback", "confirmation", "flash-message", "status-message"],
+    "variants": ["success", "warning", "error", "error-with-details", "small"]
+  },
+  "tooltips": {
+    "description": "A short message giving non-essential contextual information, activated by hover, focus, or click.",
+    "synonyms": ["tooltip", "hint", "help-text", "contextual-info", "hover-text", "info-tip", "description-bubble"],
+    "variants": ["link", "button-icon", "button", "bottom-to-top", "top-to-bottom", "right-to-left", "left-to-right", "rise", "fall"]
+  },
+  "tree-grid": {
+    "description": "A data grid with hierarchical structure, enabling expandable/collapsible rows of tabular data.",
+    "synonyms": ["tree-grid", "treegrid", "hierarchical-table", "expandable-table", "nested-grid", "structured-data-table"],
+    "variants": ["expanded", "selected-row", "deep-nesting", "headless", "single-select", "item-disabled", "item-hovered"]
+  },
+  "trees": {
+    "description": "A tree visualizes a structure hierarchy where branches can be expanded or collapsed.",
+    "synonyms": ["tree", "treeview", "hierarchy", "expandable-list", "nested-list", "folder-tree", "directory-tree", "navigation-tree"],
+    "variants": ["expanded", "selected", "deep-nesting", "metatext", "item-hovered", "item-disabled", "filterable-tree", "filtered-tree"]
+  },
+  "trial-bar": {
+    "description": "A bar for trial experiences that provides interactive and educational prospect setup.",
+    "synonyms": ["trial-bar", "trial", "prospect-bar", "onboarding-bar", "trial-banner"],
+    "variants": ["header", "menu-open"]
+  },
+  "vertical-navigation": {
+    "description": "A vertical list of navigation links for moving between pages or page sections.",
+    "synonyms": ["vertical-navigation", "sidebar-nav", "side-menu", "nav-list", "navigation-links", "left-nav", "compact-nav"],
+    "variants": ["list", "collapsed", "expanded", "compact", "items-with-icons", "items-with-notifications", "shade", "quickfind", "radio-group", "radio-group-compact", "radio-group-shade"]
+  },
+  "vertical-tabs": {
+    "description": "Tabs arranged vertically for switching between groups of content.",
+    "synonyms": ["vertical-tabs", "sidebar-tabs", "side-tabs", "tab-navigation", "content-switcher"],
+    "variants": ["with-icons", "with-badges", "item-focus", "item-active"]
+  },
+  "visual-picker": {
+    "description": "Visually enhanced radio buttons, checkboxes, or links for making selections with rich visual previews.",
+    "synonyms": ["visual-picker", "visual-select", "image-picker", "card-picker", "rich-selector", "coverable-picker"],
+    "variants": ["coverable-base-small", "coverable-base-medium", "coverable-base-large", "coverable-disabled", "coverable-checkbox-small", "coverable-checkbox-medium", "coverable-checkbox-large", "non-coverable", "non-coverable-disabled", "link", "vertical", "vertical-disabled"]
+  },
+  "welcome-mat": {
+    "description": "A welcome mat provides a series of clickable items for learning about a thematic topic during onboarding.",
+    "synonyms": ["welcome-mat", "onboarding", "walkthrough", "getting-started", "learning-tiles", "trailhead", "splash-screen"],
+    "variants": ["default", "with-completed-tiles", "trailhead-connected", "trailhead-complete", "info-only", "splash"]
+  }
+}
